@@ -16,8 +16,9 @@ def hopper
         }
      }
 
-
 end
+
+
 
 def alan_kay_is_known_for
 	# What combination of keys would you use to return the value of the :known_for key of :alan_kay?
@@ -123,3 +124,7 @@ def adding_to_dennis
      }
 
 end
+
+adding_to_dennis[:dennis_ritchie][:languages] << "Assembly"
+
+hopper[:grace_hopper]
