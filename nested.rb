@@ -39,6 +39,7 @@ def alan_kay_is_known_for
         }
      }
 end
+alan_kay_is_known_for[:alan_kay][:known_for]
 
 def dennis_ritchies_language
 	programmer_hash =
@@ -84,6 +85,7 @@ def adding_matz
 
 end
 
+
 def changing_alan
 	programmer_hash =
  		{
@@ -125,4 +127,5 @@ def adding_to_dennis
 
 end
 
- adding_to_dennis[:dennis_ritchie][:languages] << "Assembly"
+adding_to_dennis[:dennis_ritchie][:languages] << "Assembly"
+ 
