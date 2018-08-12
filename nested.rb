@@ -125,6 +125,6 @@ def adding_to_dennis
 
 end
 
-adding_to_dennis[:dennis_ritchie][:languages] << "Assembly"
+puts adding_to_dennis[:dennis_ritchie][:languages] << "Assembly"
 
-hopper[:grace_hopper]
+puts hopper[:grace_hopper]
